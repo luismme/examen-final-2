@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Le Creme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/f7-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-orange">
+
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+			<section class="panel panel-left panel-cover">
+				<div class="bg-panel">
+					<img src="img/cheesecake-overlay.jpg" alt="Panel Hero" class="img-fluid">
+					<div class="centered">La Creame</div>
+					<div class="bottom">Boutique Bakery</div>
+				</div>
+				<article class="lista-menu">
+
+				<div class="list media-list">
+					<ul>
+							<li>
+								<a href="/home/" class="item-content item-link panel-close">
+									<div class="item-media"><i class="material-icons">home</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title">
+											Home
+										</div>
+									</div>
+								</a>
+							</li>
+								<li>
+									<a href="#" class="item-content item-link panel-close">
+										<div class="item-media"><i class="material-icons">cake</i>
+										</div>
+										<div class="item-inner">
+											<div class="item-title">
+												Cakes
+											</div>
+										</div>
+									</a>
+								</li>
+									<li>
+										<a href="#" class="item-content item-link panel-close">
+											<div class="item-media"><i class="material-icons">spa</i>
+											</div>
+											<div class="item-inner">
+												<div class="item-title">
+													Cupcakes
+												</div>
+											</div>
+										</a>
+									</li>
+										<li>
+											<a href="#" class="item-content item-link">
+												<div class="item-media"><i class="material-icons">ac_unit</i>
+												</div>
+												<div class="item-inner">
+													<div class="item-title">
+														Sweeties
+													</div>
+												</div>
+											</a>
+										</li>
+											<li>
+												<a href="#" class="item-content item-link">
+													<div class="item-media"><i class="material-icons">local_pizza</i>
+													</div>
+													<div class="item-inner">
+														<div class="item-title">
+															Pies
+														</div>
+													</div>
+												</a>
+											</li>
+												<li>
+													<a href="#" class="item-content item-link">
+														<div class="item-media"><i class="material-icons">store</i>
+														</div>
+														<div class="item-inner">
+															<div class="item-title">
+																Stores
+															</div>
+														</div>
+													</a>
+												</li>
+													<li>
+														<a href="#" class="item-content item-link">
+															<div class="item-media"><i class="material-icons">card_giftcard</i>
+															</div>
+															<div class="item-inner">
+																<div class="item-title">
+																	Delivery
+																</div>
+															</div>
+														</a>
+													</li>
+														<li>
+															<a href="#" class="item-content item-link">
+																<div class="item-media"><i class="material-icons">favorite</i>
+																</div>
+																<div class="item-inner">
+																	<div class="item-title">
+																		Favorites
+																	</div>
+																</div>
+															</a>
+														</li>
+					</ul>
+				</div>
+				</article>
+			</section>
+
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+					<a href="#" class="icon-only link panel-open" data-panel="left">
+						<i class="material-icons">
+						menu
+						</i>
+					</a>
+				</div>
+				        <div class="title">Cakes</div>
+            </div>
+          </nav>
+					<div class="subnavbar">
+						<form class="searchbar searchbar-init" data-searchbar-container=".list" data-search-in=".item-content">
+						<div class="searchbar-inner">
+							<div class="searchbar-input-wrap">
+								<input type="search" placeholder="Search">
+								<i class="searchbar-icon"></i>
+								<span class="input-clear-button"></span>
+							</div>
+								<span class="searchbar-disable-button">Cancel</span>
+						</div>
+						</form>
+					</div>
+
+			<!-- Botones superiores -->
+			<section class="page-content">
+			<div class="toolbar tabbar">
+
+			<div class="toolbar-inner">
+			<a href="#tabCakes" class="tab-link tab-link-active">Cakes</a>
+			<a href="#tabCookies" class="tab-link tab-link-active">Cookies</a>
+
+			</div>
+		</div>
+
+			<div class="tabs-animated-wrap">
+		<div class="tabs">
+
+	<div class="block tab tab-info" id="tabCakes">
+				<div class="row">
+					<article class="col-50">
+						<div id="pastel 1">
+							<a href="/info-pastel/">
+							<div class="imagen">
+								<img src="img/raspberry-meringue.jpg"	alt="blueberry" class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="titulo">Raspberry Merenguine</p>
+								<p class="precio">$18</p>
+							</div>
+							</a>
+						</div>
+
+						<div id="pastel 2">
+							<div class="imagen">
+								<img src="img/lemon-pie.jpg" alt="lemonpie" class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="titulo">Lemon Pie</p>
+								<p class="precio">$16</p>
+							</div>
+						</div>
+
+						<div id="pastel 3">
+							<div class="imagen">
+								<img src="img/cheesecake.jpg" alt="cheesecake" class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="titulo">Cheesecake</p>
+								<p class="precio">$15</p>
+							</div>
+						</div>
+
+
+					</article>
+
+					<article class="col-50">
+						<div id="pastel 4">
+							<div class="imagen">
+								<img src="img/blueberry-cake.jpg" alt="blueberry" class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="titulo">Blueberry Cake</p>
+								<p class="precio">$15</p>
+							</div>
+						</div>
+
+						<div id="pastel 5">
+							<div class="imagen">
+								<img src="img/tiramisu.jpg" alt="tiramisu" class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="titulo">Tiramisú</p>
+								<p class="precio">$18</p>
+							</div>
+						</div>
+
+						<div id="pastel 6">
+							<div class="imagen">
+								<img src="img/chocolate-cake.jpg" alt="chocolate" class="img-fluid">
+							</div>
+							<div class="content">
+								<p class="titulo">Chocolate Cake</p>
+								<p class="precio">$10</p>
+							</div>
+						</div>
+					</article>
+			</div>
+				</div>
+
+				<div class="block tab tab-info" id="tabCookies">
+							<div class="row">
+								<article class="col-50">
+									<div id="cookie 1">
+										<a href="/info-cookie/">
+										<div class="imagen">
+											<img src="img/cookies/cookies-1.jpg" class="img-fluid">
+										</div>
+										<div class="content">
+											<p class="titulo">Cookie Stack</p>
+											<p class="precio">$15</p>
+										</div>
+										</a>
+									</div>
+
+									<div id="cookie 2">
+										<div class="imagen">
+											<img src="img/cookies/cookies-2.jpg" class="img-fluid">
+										</div>
+										<div class="content">
+											<p class="titulo">Kiss Cookie</p>
+											<p class="precio">$15</p>
+										</div>
+									</div>
+										<div id="cookie 3">
+											<div class="imagen">
+												<img src="img/cookies/cookies-3.jpg" class="img-fluid">
+											</div>
+											<div class="content">
+												<p class="titulo">M&M Cookie</p>
+												<p class="precio">$18</p>
+											</div>
+										</div>
+								</article>
+
+								<article class="col-50">
+									<div id="cookie 4">
+										<div class="imagen">
+											<img src="img/cookies/cookies-4.jpg" class="img-fluid">
+										</div>
+										<div class="content">
+											<p class="titulo">Lemon Cookie</p>
+											<p class="precio">$10</p>
+										</div>
+									</div>
+
+									<div id="cookie 5">
+										<div class="imagen">
+											<img src="img/cookies/cookies-5.jpg" class="img-fluid">
+										</div>
+										<div class="content">
+											<p class="titulo">Sugar Cookie</p>
+											<p class="precio">$16</p>
+										</div>
+									</div>
+
+									<div id="cookie 6">
+										<div class="imagen">
+											<img src="img/cookies/cookies-6.jpg" class="img-fluid">
+										</div>
+										<div class="content">
+											<p class="titulo">Shortbread Cookie</p>
+											<p class="precio">$18</p>
+										</div>
+									</div>
+								</article>
+						</div>
+							</div>
+
+				</div>
+				</div>
+          <!-- Scrollable page content -->
+
+	</section>
+
+		  </div>
+		</div>
+	</div>
+
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+
+</html>
